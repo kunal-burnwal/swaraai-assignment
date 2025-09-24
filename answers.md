@@ -1,6 +1,11 @@
 ### Part C – Short Answer (Reasoning)
 
 1.  If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
+
+
+
+
+
 With a small dataset, **data augmentation** is crucial. You could use an LLM to generate synthetic examples by paraphrasing the existing replies, or by creating new ones with similar intent. Additionally, employing **transfer learning** with a pre-trained model like a small transformer would provide a strong starting point and prevent overfitting on the limited data.
 
 3.  How would you ensure your reply classifier doesn’t produce biased or unsafe outputs in production?
